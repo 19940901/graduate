@@ -1,0 +1,13 @@
+server:
+  port: 8099
+cb:
+  name: prd
+  age:  24
+  study:
+    time: 20
+    day: monday
+rand:
+  str: ${random.value} #32位的随机字符串
+  uuid: ${random.uuid} #uuid
+  num: ${random.int(100)} #100内随机整数
+  num0: ${random.int(0,99)} #0-99内的随机整数

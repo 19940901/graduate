@@ -1,0 +1,4 @@
+#可以通过不同的配置文件来使用不同的环境如dev&prd
+spring:
+  profiles:
+    active: dev
